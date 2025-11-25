@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Machine Learning Systems (MLSys)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                         Helvetica, Arial, sans-serif;
+            background: #fafafa;
+            margin: 0;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+            font-weight: 700;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            border-left: 4px solid #1e3a8a;
+            padding-left: 10px;
+            margin-top: 40px;
+            font-size: 26px;
+        }
+        ul {
+            margin-top: 8px;
+        }
+        ul li {
+            margin: 6px 0;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #1e3a8a;
+            color: white;
+            font-size: 14px;
+        }
+        a {
+            color: #1e3a8a;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Machine Learning Systems</h1>
+</header>
+
+<div class="container">
+
+    <h2>Administrative</h2>
+    <div class="card">
+        <p><strong>Instructor in Charge:</strong> Professor Li Shang, Professor Yuedong Xu</p>
+        <p><strong>Instructor Email:</strong> lishang@fudan.edu.cn, ydxu@fudan.edu.cn</p>
+    </div>
+
+    <h2>Course Description</h2>
+    <div class="card">
+        <p>
+            The Machine Learning Systems course provides a comprehensive exploration of the end-to-end
+            design and optimization of machine learning systems, with an emphasis on the integration of
+            large models, system software, and hardware architecture. Core topics include GPU and AI
+            accelerator architectures, CUDA programming, machine learning compilers, parallel training
+            frameworks, model inference, and optimization techniques. Through hands-on labs and a final
+            project, students will gain practical experience in developing scalable, efficient, and
+            reliable ML systems for real-world applications.
+        </p>
+        <p>
+            The objective of the Machine Learning Systems course is to equip students with a deep and
+            practical understanding of how to design, optimize, and deploy large-scale machine learning
+            systems. By bridging the gap between large models, system software, and hardware design, the
+            course prepares students to build scalable and efficient ML services. Students will develop
+            hands-on expertise through practical assignments and projects. Upon completion, students will
+            be able to architect end-to-end machine learning systems that meet performance, cost, and
+            reliability requirements across a diverse range of AI applications.
+        </p>
+        <p>
+            This course will also invite industry experts to deliver talks on topics including ML
+            compilers and optimizations, parallel training, inference systems, deployment on mobile and
+            edge devices, hardware accelerators, and open-source community practices.
+        </p>
+        <p>
+            The course includes 3 hours of lectures each week. Homework focuses on hands-on programming
+            exercises. A final course project focuses on machine learning system development.
+        </p>
+    </div>
+
+    <h2>Prerequisites</h2>
+    <div class="card">
+        <p>
+            This course bridges deep learning algorithms and large models with underlying computer
+            system software and hardware. Background in deep learning, computer architecture, operating
+            systems, and compilers is expected. The course is open to graduate students.
+        </p>
+    </div>
+
+    <h2>References and Textbooks</h2>
+    <div class="card">
+        <p>
+            This course is based on a series of lecture slides, research papers, and open-source
+            projects. The following online book may serve as an introductory reference:
+        </p>
+        <p>
+            <strong>V. J. Reddi, Machine Learning Systems,</strong>
+            <a href="https://mlsysbook.ai" target="_blank">https://mlsysbook.ai</a>
+        </p>
+    </div>
+
+    <h2>Website and Computing Tools</h2>
+    <div class="card">
+        <p>Lecture notes will be posted online.</p>
+        <p>The university will provide GPU computing resources to support homework and course projects.</p>
+    </div>
+
+    <h2>Grading Policy</h2>
+    <div class="card">
+        <p><strong>Class participation:</strong> 20%</p>
+        <p><strong>Homework:</strong> 30%</p>
+        <p><strong>Project:</strong> 50%</p>
+        <p>There will be approximately four bi-weekly homework sets, focused on programming and system development.</p>
+        <p>
+            The semester-long team project should focus on model-driven design and optimization of ML
+            systems. Projects may include ML compilation, parallel training, inference optimization,
+            and system-level design. Each team will submit an 8-page conference-style report and
+            open-source the implementation.
+        </p>
+    </div>
+
+    <h2>Tentative Syllabus</h2>
+    <div class="card">
+        <ul>
+            <li><a href="slides/lecture1.pdf" target="_blank"> Week 1: Introduction to Machine Learning Systems</a></li>
+            <li><a href="slides/lecture2.pdf" target="_blank"> Week 2: Review: CPU architecture for ILP</a></li>
+            <li><a href="slides/lecture3.pdf" target="_blank">Week 3: GPU Architecture for Machine Learning</a></li>
+            <li><a href="slides/lecture4.pdf" target="_blank">Week 4: CUDA Programming I</a></li>
+            <li><a href="slides/lecture5.pdf" target="_blank">Week 5: CUDA Programming II</a></li>
+            <li><a href="slides/lecture6.pdf" target="_blank">Week 6: ML Compiler</a></li>
+            <li><a href="slides/lecture7.pdf" target="_blank">Week 7: LLM Training I</a></li>
+            <li><a href="slides/lecture8.pdf" target="_blank">Week 8: LLM Training II</a></li>
+            <li><a href="slides/lecture9.pdf" target="_blank">Week 9: LLM Training III</a></li>
+            <li><a href="slides/lecture10.pdf" target="_blank">Week 10: Case Study: Training a 3B Model A-Z</a></li> 
+            <li><a href="slides/lecture11.pdf" target="_blank">Week 11: Case Study: Training a 3B Model A-Z</a></li>            
+            <li><a href="slides/lecture12.pdf" target="_blank">Week 12: LLM Inference I</a></li>
+            <li><a href="slides/lecture13.pdf" target="_blank">Week 13: LLM Inference II</a></li>
+            <li><a href="slides/lecture14.pdf" target="_blank">Week 14: Case Study: LLM Inference A-Z</a></li>      
+            <li><a href="slides/lecture15.pdf" target="_blank">Week 15: Model Optimization</a></li> 
+            <li><a href="slides/lecture16.pdf" target="_blank">Week 16: LLM Data</a></li>
+            <li><a href="slides/lecture17.pdf" target="_blank">Week 17: Project Demo</a></li>                    
+        </ul>
+    </div>
+
+    <h2>Learning Outcomes</h2>
+    <div class="card">
+        <ul>
+            <li>Explain the architectural foundations of modern ML systems, including GPU/AI accelerators, CUDA programming, compilers, and distributed training frameworks.</li>
+            <li>Analyze computation, memory, and communication patterns in large-scale ML workloads.</li>
+            <li>Apply ML compilers, parallel training strategies, and optimization techniques to design scalable systems.</li>
+            <li>Evaluate performance, cost, and reliability across inference deployments (datacenter to edge).</li>
+            <li>Implement ML system components using CUDA, system optimization, and hardware/software integration.</li>
+            <li>Design and execute a team project producing a conference-style paper and open-source system.</li>
+            <li>Critically engage with state-of-the-art ML systems research and industry practices.</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Machine Learning Systems · All Rights Reserved
+</footer>
+
+</body>
+</html>
